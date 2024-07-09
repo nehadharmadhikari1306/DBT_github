@@ -4,4 +4,4 @@
     )
 }}
 
-Select * from {{ source('jaffle_shop', 'customers') }}
+Select * from {{ source('jaffle_shop', 'orders') }}
